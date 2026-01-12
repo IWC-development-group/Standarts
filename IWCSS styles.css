@@ -1,0 +1,67 @@
+/* Obsidian snippet to style output of pdf exports */
+@media print {
+  * {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  
+  body, 
+  div,
+  span,
+  p, 
+  li, 
+  td,
+  th,
+  a,
+  strong,
+  em,
+  code,
+  pre,
+  blockquote,
+  .markdown-preview-view,
+  .markdown-rendered,
+  .cm-content,
+  .callout,
+  .admonition {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6,
+  .cm-header-1, .cm-header-2, .cm-header-3, 
+  .cm-header-4, .cm-header-5, .cm-header-6,
+  .HyperMD-header-1, .HyperMD-header-2, .HyperMD-header-3,
+  .HyperMD-header-4, .HyperMD-header-5, .HyperMD-header-6 {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  
+  h1, .cm-header-1, .HyperMD-header-1 {
+    font-size: 24pt !important;
+  }
+  
+  h2, .cm-header-2, .HyperMD-header-2 {
+    font-size: 20pt !important;
+  }
+  
+  h3, .cm-header-3, .HyperMD-header-3 {
+    font-size: 16pt !important;
+  }
+  
+  h4, h5, h6,
+  .cm-header-4, .cm-header-5, .cm-header-6,
+  .HyperMD-header-4, .HyperMD-header-5, .HyperMD-header-6 {
+    font-size: 14pt !important;
+  }
+  
+  /* Basic styles for all text */
+  body {
+    font-size: 12pt !important;
+    line-height: 0.5 !important;
+	word-spacing: 0.1pt !important;
+    letter-spacing: 0.0pt !important;
+  }
+  
+  code {
+        font-family: "Cascadia Mono" !important;
+        font-size: 10pt !important;
+        color: #292929 !important;
+  }
+ }
